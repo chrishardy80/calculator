@@ -138,10 +138,13 @@ body {
   }
 
   #shadowbox {
-    margin-top: 300px;
+    position: relative;
+    right: 20px;
+    margin-top: 200px;
     width: 90%;
     height: 1320px;
     border-radius: 30px;
+    box-shadow: 30px 30px 40px rgba(0,0,0,0.4);
   }
 
   #calculator {
@@ -149,10 +152,11 @@ body {
     height: 88%;
     border-radius: 30px;
     padding: 80px;
+    box-shadow: inset -10px -10px 50px 15px rgba(0,0,0,0.2);
   }
 
   #logo {
-    font-size: 70px;
+    font-size: 65px;
   }
 
   #display {
@@ -160,6 +164,7 @@ body {
     border-radius: 22.5px;
     margin: 60px 0;
     padding: 40px;
+    box-shadow: inset 3px 6px 30px 6px rgba(0,0,0,0.3);
   }
 
   #display .answer {
@@ -175,6 +180,17 @@ body {
     height: 110px;
     margin: 20px 24px;
     border-radius: 15px;
+    border-bottom: 8px solid black;
+    border-right: 4px solid black;
+    box-shadow: 7px 10px 15px #666768;
+  }
+
+  .buttonshadow {
+    box-shadow: inset -2px -6px 15px 3px #6a6a6b;
+  }
+
+  .redbuttonshadow {
+    box-shadow: inset -2px -6px 15px 3px #f79696;
   }
 
   .button.wide {
